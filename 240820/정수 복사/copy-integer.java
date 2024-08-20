@@ -5,7 +5,7 @@ public class Main {
         int b = 4;
         a = b;
 
-        System.out.print(a + " " + b);
+        System.out.println(a + " " + b);
         System.out.println(a * b);
     }
 }

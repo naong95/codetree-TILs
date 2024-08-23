@@ -11,10 +11,10 @@ public class Main {
         int ageB = sc.nextInt();
         String genB = sc.next();
 
-        if(ageA < 19 && ageB < 19) {
-            System.out.println(0);
+        if((ageA >= 19) && (genA.equals("M") || (ageB >= 19) && (genB.equals("M")))) {
+            System.out.println(1);
         } else {
-            System.out.println((genA.equals("W") && genB.equals("W")) ? 0 : 1);
+            System.out.println(0);
         }
     }
 }

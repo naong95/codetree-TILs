@@ -11,7 +11,7 @@ public class Main {
         int ageB = sc.nextInt();
         String genB = sc.next();
 
-        if((ageA >= 19) && (genA.equals("M") || (ageB >= 19) && (genB.equals("M")))) {
+        if((ageA >= 19) && (genA.equals("M")) || (ageB >= 19) && (genB.equals("M"))) {
             System.out.println(1);
         } else {
             System.out.println(0);

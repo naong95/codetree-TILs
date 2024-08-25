@@ -15,6 +15,9 @@ public class Main {
             } else {
                 System.out.println(tf);
             }
+        } else {
+            tf = false;
+            System.out.println(tf);
         }
     }
 }

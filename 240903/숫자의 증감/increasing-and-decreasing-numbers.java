@@ -14,7 +14,7 @@ public class Main {
                 sb.append(i).append(" ");
             }
         } else {
-            for(int i = n; i > n - 1; i--) {
+            for(int i = n; i > 0; i--) {
                 sb.append(i).append(" ");
             }
         }

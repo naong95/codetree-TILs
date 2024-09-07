@@ -15,7 +15,7 @@ public class Main {
             } else if(i > 79) {
                 sb.append("B").append(" ");
             } else if(i > 69) {
-                sb.append("D").append(" ");
+                sb.append("C").append(" ");
             } else if(i > 59) {
                 sb.append("D").append(" ");
             } else {

@@ -7,12 +7,13 @@ public class Main {
 
         StringBuilder sb = new StringBuilder("");
 
-        int n = -1;
+        int n = sc.nextInt();
+        int num = -1;
 
-        while(sc.hasNext()) {
-            n = sc.nextInt();
-            if(n % 2 == 1 && n % 3 == 0) {
-                sb.append(n).append("\n");
+        for(int i = 0; i < n; i++) {
+            num = sc.nextInt();
+            if(num % 2 == 1 && num % 3 == 0) {
+                sb.append(num).append("\n");
             }
         }
 

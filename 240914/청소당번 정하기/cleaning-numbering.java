@@ -12,7 +12,7 @@ public class Main {
         int bok = 0;
         int hwa = 0;
 
-        for(int i = 1; i < n; i++) {
+        for(int i = 1; i < n + 1; i++) {
             if(i % 12 == 0) {
                 hwa++;
             } else if(i % 3 == 0) {
